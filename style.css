@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding: 0;
@@ -9,6 +11,7 @@ header{
     background-image: url(./images/S1-Header.jpg);
     height:100vh;
     background-size: cover;
+    background-position:center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -53,4 +56,32 @@ header p {
 .fab:hover{
     color: greenyellow;
    
+}
+
+/* ---------NAV---------- */
+nav{
+    background-color: greenyellow;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+
+}
+
+li{
+    list-style: none;
+    padding: 0.5rem 1rem;
+}
+
+li:hover{
+    background-color: blanchedalmond;
+    font-size:1.5rem ;
+}
+
+a{
+    text-decoration: none;
+    color:black;
 }
