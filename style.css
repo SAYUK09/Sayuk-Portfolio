@@ -78,10 +78,38 @@ li{
 
 li:hover{
     background-color: blanchedalmond;
-    font-size:1.5rem ;
+   
 }
 
 a{
     text-decoration: none;
     color:black;
 }
+
+#about{
+    background-color: rgb(19, 18, 18);
+    color: whitesmoke;
+    display: flex;
+}
+
+.aboutImg{
+    height: 40vh;
+    width: 20vw;
+    /* background-color: whitesmoke; */
+    margin: 1rem;
+}
+
+#about img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutDescrip{
+    width: 40%;
+}
+
+.aboutDescrip , .aboutDescrip h1 , .aboutDescrip p {
+    padding: 1rem;
+}
+
